@@ -6,31 +6,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600;800&display=swap" rel="stylesheet">
+    <!-- /Font -->
+    <!-- Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <!-- /Icon -->
     <!-- Stylesheet -->
     <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- /Stylesheet -->
     <title>Hubspot.com</title>
 </head>
 <body>
     <!-- Site Header -->
     <header>
 
-        <!-- Sezione con le navbar -->
-        <section class="navbar ">
+        <!-- Sezioni con le navbar -->
+
+        <!-- Navbar Up -->
+        <section class="navbarup">
             <div class="container" >
                 <div class="navbar_up clearfix">
                     <div class="left_menu_top">
+                        <i class="fas fa-globe-europe"></i>
+                        <select>
+                            <option>English</option>
+                            <option>Deutsche</option>
+                            <option>Français</option>
+                            <option>Italiano</option>
+                            <option>русский</option> 
+                        </select>
+                        <span>|</span>
+                        <a href="#">Contact Us</a>
                     </div>
                     <div class="right_menu_top">
+                        <img src="./assets/img/search-20icon.webp" alt="">
+                        <a href="#">Log In</a>
+                        <a href="">GetHubspotFree</a>
                     </div>
                 </div>
+            </div>    
+        </section>
+        <!-- /Navbar Up -->
+        
+        <!-- Navbar Down -->
+        <section class="navbardown">
+            <div class="container">
                 <div class="navbar_down clearfix">
                     <div class="left_menu_down">
+                        <img src="./assets/img/logo.svg" alt="">
                     </div>
                     <div class="right_menu_down">
+                       <ul class="ul_menu">
+                           <li><a href="">Software</a><i class="fas fa-chevron-down"></i></li>
+                           <li><a href="">Pricing</a></li>
+                           <li><a href="">Resources</a><i class="fas fa-chevron-down"></i></li>
+                           <li><a href="">Partners</a><i class="fas fa-chevron-down"></i></li>
+                           <li><a href="">About</a><i class="fas fa-chevron-down"></i></li>
+                       </ul>
                 </div>
             </div>
         </section>
+        <!-- /Navbar Down -->
         <!-- /Sezione con le navbar -->
 
     </header>

@@ -5,7 +5,6 @@
     padding: 0;
     font-family: 'Montserrat', sans-serif;
 }
-
 .clearfix::after{
     content: "";
     clear:both;
@@ -15,28 +14,107 @@
     width: 70%;
     margin: auto;
 }
-
+a{
+   text-decoration: none;
+}
 /* ******************** Header class ******************** */
-
+.navbarup{
+    background-color:#F4F9FD;
+ }
+.navbardown{
+    background-color: #FFFFFF;
+    border-top: 1px solid grey;
+}
 /* *****Nav_Bar class ***** */
 .navbar_up{
-    background-color: saddlebrown;
+    font-weight: 500;
 }
 .navbar_down{
-    background-color: yellow;
+    background-color: white;
 }
 
+/* Common menu class */
 .left_menu_top, .left_menu_down{
-    height: 50px;
-    width: 100px;
-    background-color: blue;
-    border: 3px solid red;
+    line-height: 90px;
+    /* border: 3px solid red; */
     float: left;
 }
 .right_menu_top, .right_menu_down{
-    height: 50px;
-    width: 100px;
-    background-color:red;
-    border: 3px solid blue;
+    line-height: 90px;
+    /* border: 3px solid blue; */
     float: right;
 }
+/* /Common menu class */
+
+/* Left menu class */
+
+    /* Top Menu */
+    .left_menu_top{
+        font-size: 15px;
+        font-weight: 500;
+        color: #32495B;
+    }
+    .left_menu_top>select{
+        font-size: 15px;
+        font-weight: 500;
+        border: 0px;
+        background-color:#F4F9FD;
+        color: #32495B;
+    }
+    .left_menu_top>span{
+        margin: 0px 10px;
+    }
+    .left_menu_top>a{
+        color: #32495B;
+    }
+    /* /Top Menu */
+
+    /* Bottom Menu */
+    .left_menu_down img{
+        width: 120px;
+        padding-top: 1.25rem;
+    }
+    /* /Bottom Menu */
+
+/* Right menu class */
+
+    /* Top Menù */
+    .right_menu_top{
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .right_menu_top img{
+        height: 15px ;
+
+    }
+    .right_menu_top a:nth-child(2){
+        background-color:#FAFCFE;
+        color:  #FE775A;
+        margin: 0px 20px 0px 20px;
+        padding: 10px 10px;
+        border: 1px solid #FE775A;
+        border-radius: 5px;
+    }
+    .right_menu_top a:last-child{
+        background-color:#FE775A;
+        color: #FAFCFE;
+        padding: 10px 10px;
+        border: 1px solid #FE775A;
+        border-radius: 5px;
+    }
+    /* /Top Menù */
+
+    /* Bottom Menu */
+    .ul_menu li{
+        display: inline-block;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .ul_menu li:not(:last-child){
+        margin-right: 30px;
+    }
+    .ul_menu>li>i{
+        padding-left: 20px;
+    }
+    /* /Bottom Menu */
+
