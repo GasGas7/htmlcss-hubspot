@@ -35,12 +35,12 @@ a{
 
 /* Common menu class */
 .left_menu_top, .left_menu_down{
-    line-height: 90px;
+    line-height: 80px;
     /* border: 3px solid red; */
     float: left;
 }
 .right_menu_top, .right_menu_down{
-    line-height: 90px;
+    line-height: 80px;
     /* border: 3px solid blue; */
     float: right;
 }
@@ -72,16 +72,18 @@ a{
     /* Bottom Menu */
     .left_menu_down img{
         width: 120px;
-        padding-top: 1.25rem;
+
+        padding-top: 1.17rem;
     }
     /* /Bottom Menu */
+/* /Left menu class */
 
 /* Right menu class */
 
     /* Top Menù */
     .right_menu_top{
         font-size: 15px;
-        font-weight: 400;
+        font-weight: 500;
     }
     .right_menu_top img{
         height: 15px ;
@@ -117,4 +119,52 @@ a{
         padding-left: 20px;
     }
     /* /Bottom Menu */
+/* /Right menu class */
+
+/* ***** /Nav_Bar class ***** */
+
+/* ***** Jumbotron ***** */
+.jumbotron{
+    /* background-image: url("../img/jumbotron.png");
+    background-position:right;
+    background-repeat:repeat;
+    background-size: 85% 103%;    */
+}
+.jumbotron>.container{
+    padding-top: 90px;
+}
+.jumbo_txt{
+   width: 650px;
+   height: 600px;
+}
+.jumbo_txt h1{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.jumbo_txt p{
+    margin-top: 40px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.jumbo_txt a{
+    background-color: #FE775A;
+    color: #FAFCFE;
+    padding: 25px 25px;
+    border: 1px solid #FE775A;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 40px;
+}
+.jumbo_txt span{
+    display: block;
+    margin-top: 40px;
+    font-size: 15px;
+}
+#spacer_header_main{
+    height: 90px;
+    background-color: #AFEBE4;
+    border-top: 2px solid #33475B;
+    border-bottom: 2px solid #33475B;
+}
 
