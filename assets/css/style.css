@@ -12,6 +12,31 @@
     display: table;
 }
 .container{
-    width: 80%;
+    width: 70%;
     margin: auto;
+}
+
+/* ******************** Header class ******************** */
+
+/* *****Nav_Bar class ***** */
+.navbar_up{
+    background-color: saddlebrown;
+}
+.navbar_down{
+    background-color: yellow;
+}
+
+.left_menu_top, .left_menu_down{
+    height: 50px;
+    width: 100px;
+    background-color: blue;
+    border: 3px solid red;
+    float: left;
+}
+.right_menu_top, .right_menu_down{
+    height: 50px;
+    width: 100px;
+    background-color:red;
+    border: 3px solid blue;
+    float: right;
 }
