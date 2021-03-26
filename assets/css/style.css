@@ -21,7 +21,11 @@ body{
 a{
    text-decoration: none;
 }
+/* /Utility class */
+
+
 /* ******************** Header class ******************** */
+
 .navbarup{
     background-color:#F4F9FD;
  }
@@ -29,6 +33,7 @@ a{
     background-color: #FFFFFF;
     border-top: 1px solid grey;
 }
+
 /* *****Nav_Bar class ***** */
 .navbar_up{
     font-weight: 500;
@@ -79,6 +84,7 @@ a{
         height: 35px;
     }
     /* /Bottom Menu */
+
 /* /Left menu class */
 
 /* Right menu class */
@@ -128,7 +134,7 @@ a{
 
 /* ***** Jumbotron ***** */
 .jumbotron{
-    background-color: #FFF4EF;
+    background-color: #FFF4EF ;
     background-image: url("../img/jumbotron.png");
     background-position-x: right;
     background-position-y: top;
@@ -169,4 +175,91 @@ a{
     border-top: 2px solid #33475B;
     border-bottom: 2px solid #33475B;
 }
+/* ***** /Jumbotron ***** */
 
+/* ******************** /Header class ******************** */
+
+/* ******************** Main class ******************** */
+
+/* Section frame 1 - 2 - 3  */
+.frame1_2_3{
+    background-color: #F4F9FD;
+}
+/* Frame 1 */
+.frame1{
+    width: 77%;
+    margin: auto;
+    padding-top: 50px;
+    background-color: #F4F9FD;
+    text-align: center;
+}
+.frame1>img{
+    height: 200px;   
+}
+.frame1>p{
+    padding-top: 30px;
+    line-height: 40px;
+    word-spacing: 0px; 
+}
+/* /Frame 1 */
+
+/* Frame 2 */
+.frame2{
+    width: 100%;
+    margin: 50px auto;
+    padding: 50px 80px ;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px 2px #E6ECF1;
+    background-color:white;
+}
+.frame2_left{
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+.frame2_left>img{
+    height: 150px;
+}
+.frame2_left>a{
+    display: block;
+    width: 150px;
+    margin: 30px auto 0px;
+    font-size: 15px;
+    background-color: #FE775A;
+    color: #FAFCFE;
+    padding: 15px 30px;
+    border: 5px solid #FE775A;
+    border-radius: 5px;   
+}
+.frame2_right{
+    width:70%;
+    float: left;
+    
+}
+.frame2_right>p{
+    padding-top: 50px;
+    line-height: 40px;
+}
+.frame2_right>h4{
+    display:inline-block;
+    padding-top: 30px;
+}
+.line::after{
+    content: "";
+    background: #899397;
+    height: 2px;
+    width: 500px;
+    margin-top: 10px;
+    position: absolute;
+    transform: translateX(15%)
+}
+.checkbox{
+    padding:25px 0px 10px 0px;
+}
+.checkbox>span{
+    padding: 0px 25px 0px 15px;
+}
+.checkbox>i{
+    color: #FE775A ;
+}
+/* /Frame 2 */
