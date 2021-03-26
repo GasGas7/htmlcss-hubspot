@@ -244,7 +244,7 @@ a{
     display:inline-block;
     padding-top: 30px;
 }
-.line::after{
+.line_h4::after{
     content: "";
     background: #899397;
     height: 2px;
@@ -263,3 +263,27 @@ a{
     color: #FE775A ;
 }
 /* /Frame 2 */
+
+/* Frame 3 */
+
+.frame3{
+    width: 100%;
+    height:700px;
+    background-color: rgba(255, 0, 0, 0.5);
+}
+.colum{
+    width: calc(100%/3);
+    float: left;
+}
+.colum.L{
+    height: 400px;
+    background-color: royalblue;
+}
+.colum.C{
+    height: 400px;
+    background-color: yellow;
+}
+.colum.R{
+    background-color:green;
+    height: 400px;
+}
