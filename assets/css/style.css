@@ -3,7 +3,11 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    min-width: 1500px;
 }
 .clearfix::after{
     content: "";
@@ -71,9 +75,8 @@ a{
 
     /* Bottom Menu */
     .left_menu_down img{
-        width: 120px;
-
-        padding-top: 1.17rem;
+        vertical-align: middle;
+        height: 35px;
     }
     /* /Bottom Menu */
 /* /Left menu class */
@@ -125,16 +128,17 @@ a{
 
 /* ***** Jumbotron ***** */
 .jumbotron{
-    background-color: #FEF6EF;
+    background-color: #FFF4EF;
     background-image: url("../img/jumbotron.png");
-    background-position:right;
+    background-position-x: right;
+    background-position-y: top;
     background-repeat: no-repeat;
-    background-size:85%;
+    background-size: 85%;
 }
 .jumbo_txt{
-   width: 650px;
-   padding-top: 100px;
-   margin-bottom: 150px;
+   width: 50%;
+   padding-top: 50px;
+   margin-bottom: 200px;
 }
 .jumbo_txt h1{
     font-size: 2.5rem;
@@ -142,9 +146,8 @@ a{
 }
 .jumbo_txt p{
     margin-top: 40px;
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 30px;
+    font-size: 18px;
+    line-height: 30px;   
 }
 .jumbo_txt a{
     background-color: #FE775A;
