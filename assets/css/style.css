@@ -21,6 +21,17 @@ body{
 a{
    text-decoration: none;
 }
+.learn_more_bt{
+    display: block;
+    width: 150px;
+    margin: 30px auto 0px;
+    font-size: 15px;
+    background-color: #FE775A;
+    color: #FAFCFE;
+    padding: 15px 30px;
+    border: 5px solid #FE775A;
+    border-radius: 5px;
+}
 /* /Utility class */
 
 
@@ -220,17 +231,6 @@ a{
 .frame2_left>img{
     height: 150px;
 }
-.frame2_left>a{
-    display: block;
-    width: 150px;
-    margin: 30px auto 0px;
-    font-size: 15px;
-    background-color: #FE775A;
-    color: #FAFCFE;
-    padding: 15px 30px;
-    border: 5px solid #FE775A;
-    border-radius: 5px;   
-}
 .frame2_right{
     width:70%;
     float: left;
@@ -274,16 +274,31 @@ a{
 .colum{
     width: calc(100%/3);
     float: left;
+    text-align: center;
+    padding: 0px 34px;
+}
+.colum img{
+    height: 150px;
+    margin-bottom: 30px;
+}
+.colum p{
+    margin-top: 50px ;
+    font-size: 20px;
 }
 .colum.L{
-    height: 400px;
     background-color: royalblue;
 }
+
 .colum.C{
-    height: 400px;
     background-color: yellow;
 }
 .colum.R{
     background-color:green;
-    height: 400px;
+}
+.colum div{
+    text-align: left;
+}
+.colum i{
+    margin-right: 20px;
+    color: #FE775A;
 }
