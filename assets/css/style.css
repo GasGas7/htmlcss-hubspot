@@ -305,7 +305,7 @@ a{
 /* /Frame 3 */
 /* Section_1 frame 1 - 2 - 3  */
 
-/* Section_1 frame gradient_blue_bg  */
+/* Section_2 frame gradient_blue_bg  */
 .gradient_blue_bg{
     background-image: linear-gradient(to right, #00AAB8 , #00B8A7);
     color: white;
@@ -313,10 +313,11 @@ a{
 }
 /* Title class */
 .title_blue_bg{
-    margin-bottom: 50px;
+    padding-top: 50px;
+    margin-bottom: 90px;
 }
 .title_blue_bg>h2{
-    padding: 50px 25px;
+    padding: 50px 25px 70px;
     font-size: 35px;
 }
 .title_blue_bg>p{
@@ -335,34 +336,115 @@ a{
 .box>img{
     margin-bottom: 10px;
 }
-.raw .box span:first-of-type{
-    font-size: 50px;
+.grid .raw .box span:first-of-type{
+    font-size: 40px;
     font-weight: 900;
     line-height: 80px;
 }
-.raw .box span:first-of-type::after{
-    content: ' \002B';
+.grid .raw .box span:first-of-type::after{
+    content: '\002B';
     font-size: 40px;
-    font-weight: 200;
+    font-weight:200;
 }
-.raw .box span:last-child{
+.grid .raw .box span:last-child{
     font-size: 15px;
 }
 /* Both Raw rules  */
 
 /* Raw 1 rules */
-.raw.one .box{
+.grid .raw.one .box{
     border-bottom: 1px solid white;
 }
-.raw .box:not(:last-child){
+.grid .raw .box:not(:last-child){
     border-right: 1px solid white;
 }
 /* /Raw 1 rules */
 
 /* Raw 2 rules */
-.raw.two{
-    padding-bottom:50px
+.grid .raw.two{
+    padding-bottom:100px;
 }
-.raw.two .box>img{
+.grid .raw.two .box>img{
     padding-top: 15px;
 }
+/* /Raw 2 rules */
+/* Section_2 frame gradient_blue_bg  */
+
+/* Section_3 frame_brands  */
+
+.frame_brands{
+    background-color: white;
+}
+.case{
+    float:left;
+}
+/* Raw 1 frame_brands */
+.frame_brands .raw.one{
+    margin-bottom: 100px;
+}
+.case.numbers{
+    width: 30%;
+    line-height: 40px;
+    padding: 80px 50px 0px 100px;
+}
+.case.numbers span{
+    font-size: 50px;
+    font-weight: 900;
+}
+.case.numbers p{
+    padding-top: 80px;
+}
+.case.brands{
+    width: 70%;
+    padding-top:50px;
+    padding-left: 100px;
+    
+}
+.case.brands img{
+    vertical-align: middle;
+    text-align: right;
+    width: 180px;
+    padding: 30px 10px 30px 10px;
+}
+/* /Raw 1 frame_brands */
+
+/* Raw 2 frame_brands */
+.frame_brands .raw.two{
+    padding-bottom: 50px;
+}
+.case.text{
+    width: 45%;
+}
+.case.text h2{
+    font-size: 40px;
+    padding-bottom: 50px;
+}
+.case.text p{
+    line-height: 40px;
+    padding-bottom: 10px;
+}
+.case.text span:last-child{
+    display: block;
+    font-size: 16px;
+    padding-top: 60px;
+}
+.case.text .get_hubspot_bt{
+    display: inline-block;
+    width: 200px;
+    margin: 40px auto 0px;
+    padding: 15px 30px;
+    font-size: 15px;
+    color: #FAFCFE;
+    text-align: center;
+    background-color: #FE775A;
+    border: 5px solid #FE775A;
+    border-radius: 5px;
+}
+.case.image{
+    width: 55%;;
+}
+.case.image>img{
+    height: 450px;
+    padding-left: 325px;
+}
+/* /Raw 2 frame_brands */
