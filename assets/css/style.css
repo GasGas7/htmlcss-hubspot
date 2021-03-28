@@ -191,7 +191,7 @@ a{
 
 /* Section_1 frame 1 - 2 - 3  */
 .frame1_2_3{
-    background-color: #F4F9FD;  
+    background-color: #F4F9FD;
 }
 /* Frame 1 */
 .frame1{
@@ -231,7 +231,6 @@ a{
 .frame2_right{
     width:70%;
     float: left;
-
 }
 .frame2_right>p{
     padding-top: 50px;
@@ -303,6 +302,67 @@ a{
 .colum hr{
     margin: 20px 20px;
 }
-
 /* /Frame 3 */
 /* Section_1 frame 1 - 2 - 3  */
+
+/* Section_1 frame gradient_blue_bg  */
+.gradient_blue_bg{
+    background-image: linear-gradient(to right, #00AAB8 , #00B8A7);
+    color: white;
+    text-align: center;
+}
+/* Title class */
+.title_blue_bg{
+    margin-bottom: 50px;
+}
+.title_blue_bg>h2{
+    padding: 50px 25px;
+    font-size: 35px;
+}
+.title_blue_bg>p{
+    padding: 0px 10px 10px 50px;
+    font-size: 0.9rem;
+    line-height: 30px;
+}
+/* /Title class */
+
+/* Both Raw rules  */
+.box{
+    width: calc(100%/4);
+    float: left;
+    padding-bottom:20px;
+}
+.box>img{
+    margin-bottom: 10px;
+}
+.raw .box span:first-of-type{
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 80px;
+}
+.raw .box span:first-of-type::after{
+    content: ' \002B';
+    font-size: 40px;
+    font-weight: 200;
+}
+.raw .box span:last-child{
+    font-size: 15px;
+}
+/* Both Raw rules  */
+
+/* Raw 1 rules */
+.raw.one .box{
+    border-bottom: 1px solid white;
+}
+.raw .box:not(:last-child){
+    border-right: 1px solid white;
+}
+/* /Raw 1 rules */
+
+/* Raw 2 rules */
+.raw.two{
+    padding-bottom:50px
+}
+.raw.two .box>img{
+    padding-top: 15px;
+}
