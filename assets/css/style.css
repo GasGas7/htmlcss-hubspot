@@ -37,7 +37,6 @@ a{
 
 
 /* ******************** Header class ******************** */
-
 .navbarup{
     background-color:#F4F9FD;
  }
@@ -45,7 +44,6 @@ a{
     background-color: #FFFFFF;
     border-top: 1px solid grey;
 }
-
 /* *****Nav_Bar class ***** */
 .navbar_up{
     font-weight: 500;
@@ -53,7 +51,6 @@ a{
 .navbar_down{
     background-color: white;
 }
-
 /* Common menu class */
 .left_menu_top, .left_menu_down{
     line-height: 80px;
@@ -148,6 +145,7 @@ a{
     background-position-y: top;
     background-repeat: no-repeat;
     background-size: 85%;
+    /* height: 695px; altezza giust della foto poi si aggiunge in regime ri after la barra*/
 }
 .jumbo_txt{
    width: 50%;
@@ -184,11 +182,10 @@ a{
     border-bottom: 2px solid #33475B;
 }
 /* ***** /Jumbotron ***** */
-
 /* ******************** /Header class ******************** */
 
-/* ******************** Main class ******************** */
 
+/* ******************** Main class ******************** */
 /* Section_1 frame 1 - 2 - 3  */
 .frame1_2_3{
     background-color: #F4F9FD;
@@ -261,7 +258,6 @@ a{
 /* /Frame 2 */
 
 /* Frame 3 */
-
 .frame3{
     width: 100%;
     margin-bottom: 50px;
@@ -303,7 +299,7 @@ a{
     margin: 20px 20px;
 }
 /* /Frame 3 */
-/* Section_1 frame 1 - 2 - 3  */
+/* /Section_1 frame 1 - 2 - 3  */
 
 /* Section_2 frame gradient_blue_bg  */
 .gradient_blue_bg{
@@ -349,7 +345,7 @@ a{
 .grid .raw .box span:last-child{
     font-size: 15px;
 }
-/* Both Raw rules  */
+/* /Both Raw rules  */
 
 /* Raw 1 rules */
 .grid .raw.one .box{
@@ -368,10 +364,10 @@ a{
     padding-top: 15px;
 }
 /* /Raw 2 rules */
-/* Section_2 frame gradient_blue_bg  */
+/* /Section_2 frame gradient_blue_bg  */
+
 
 /* Section_3 frame_brands  */
-
 .frame_brands{
     background-color: white;
 }
@@ -397,14 +393,14 @@ a{
 .case.brands{
     width: 70%;
     padding-top:50px;
-    padding-left: 100px;
-    
+    padding-left: 150px;
+
 }
 .case.brands img{
     vertical-align: middle;
     text-align: right;
-    width: 180px;
-    padding: 30px 10px 30px 10px;
+    width: 170px;
+    padding: 30px 5px ;
 }
 /* /Raw 1 frame_brands */
 
@@ -448,3 +444,79 @@ a{
     padding-left: 325px;
 }
 /* /Raw 2 frame_brands */
+/* /Section_3 frame_brands  */
+/* ******************** /Main class ******************** */
+
+
+/* ******************** Footer class ******************** */
+footer{
+    background-color: #32495B ;
+    color: #FFFFFF;
+}
+/* Raw coloumn class */
+.container .col{
+    width: calc(100%/4);
+    float: left;
+    text-align: left;
+    padding: 30px 50px 0px 0px ;
+}
+.container .col h5{
+    padding-bottom: 30px;
+}
+.container .col a{
+    display: block;
+    color: white;
+    font-size: 15px;
+    line-height: 30px;
+}
+.col.four .support_bt{
+    display: block;
+    width: 200px;
+    background-color:#FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    color:#33475B;
+    margin: 20px 0px;
+    padding: 5px 0px;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+}
+.container .col a:last-child i{
+    padding-right: 20px;
+    margin-bottom: 100px;
+}
+/* /Raw coloumn class */
+
+/* Raw language class */
+.container .language{
+    width: 45%;
+    margin: 0 auto 20px;
+}
+.container .language a{
+    font-size: 15px;
+    color: white;
+    padding-right: 30px;
+}
+/* /Raw language class */
+
+/* Raw copyright class */
+.copyright{
+    margin: 30px 0px;
+}
+.copyright .copy_left {
+    float: left;
+}
+.copyright .copy_left span{
+    display: block;
+    font-size: 15px;
+}
+.copyright .copy_right{
+    float: right;
+    padding-top: 10px;
+}
+.copyright .copy_right a{
+    font-size: 15px;
+    color: #FFFFFF;
+}
+/* /Raw copyright class */
+/* ******************** Footer class ******************** */
