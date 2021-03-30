@@ -42,11 +42,31 @@ a{
     right: 10px;
 }
 .message_chat{
-    width: 100px;
-    height: 100px;
-    background-color: #FE775A;
+    width: 340px;
+    background-color:#E6ECF1;
     margin-bottom: 10px;
-    margin-right:70px;
+    border: 20px solid #E6ECF1;
+    border-radius: 20px;
+    padding: 20px 15px;
+    position: relative;
+}
+.message_chat .robot_logo img{
+    height: 70px;
+    position: absolute;
+    bottom:90%;
+    left:50%;
+    transform: translateX(-50%);
+}
+.message_chat .cross_chat{
+    font-size: 30px;
+    position: absolute;
+    bottom: 80%;
+    right: 0;
+}
+.message_chat p{
+    text-align: left;
+    line-height: 30px;
+    font-size: 0.9rem;
 }
 
 .widget_chat .icon_chat{
