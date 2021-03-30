@@ -35,7 +35,29 @@ a{
 }
 /* /Utility class */
 
+/* Widget class */
+.widget{
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+}
+.message_chat{
+    width: 100px;
+    height: 100px;
+    background-color: #FE775A;
+    margin-bottom: 10px;
+    margin-right:70px;
+}
 
+.widget_chat .icon_chat{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px, rgba(0, 0, 0, 0.2) 0px 2px 24px;
+    background-color: rgb(66, 91, 118);
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    padding: 15px 15px;
+    float: right;
+}
 /* ******************** Header class ******************** */
 .navbarup{
     background-color:#F4F9FD;
@@ -44,7 +66,7 @@ a{
     background-color: #FFFFFF;
     border-top: 1px solid grey;
 }
-/* *****Nav_Bar class ***** */  
+/* *****Nav_Bar class ***** */
 .navbar_up{
     font-weight: 500;
 }
