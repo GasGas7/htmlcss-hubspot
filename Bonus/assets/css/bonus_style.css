@@ -33,6 +33,7 @@ a{
     border: 5px solid #FE775A;
     border-radius: 5px;
 }
+
 /* /Utility class */
 
 /* Widget class */
@@ -58,10 +59,13 @@ a{
     transform: translateX(-50%);
 }
 .message_chat .cross_chat{
-    font-size: 30px;
     position: absolute;
     bottom: 80%;
     right: 0;
+}
+button{
+    border-style: none;
+    font-size: 30px;
 }
 .message_chat p{
     text-align: left;
